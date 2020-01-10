@@ -63,7 +63,7 @@ You should get back an array of objects, each containing information about a par
 
 **Note:** Notice there are many URL keys on each image object. The first `url`
 key, just below `type`, `id`, and `slug` will bring you to the images page on
-[giphy.com](giphy.com). We only want the path to the actual image, which found
+[giphy.com](giphy.com). We only want the path to the actual image, which is found
 at `images.original.url`. Using other `url` keys may cause CORS issues.
 
 ### Your Components
